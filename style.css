@@ -72,3 +72,44 @@ color:white;
 text-decoration:none;
 }
 
+/* ===== SUCCESSFUL EVENTS SECTION (HOME PAGE) ===== */
+
+.success{
+padding:70px 10%;
+text-align:center;
+background:#f5f7fb;
+}
+
+.success-container{
+display:flex;
+gap:25px;
+justify-content:center;
+flex-wrap:wrap;
+margin-top:30px;
+}
+
+.success-card{
+background:white;
+width:280px;
+border-radius:10px;
+box-shadow:0 5px 20px rgba(0,0,0,0.1);
+overflow:hidden;
+transition:0.3s;
+}
+
+.success-card:hover{
+transform:translateY(-8px);
+}
+
+.success-card img{
+width:100%;
+}
+
+.success-card h3{
+margin:10px;
+}
+
+.success-card p{
+margin:10px;
+}
+
