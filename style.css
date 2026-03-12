@@ -113,3 +113,34 @@ margin:10px;
 margin:10px;
 }
 
+/* ===== ORGANIZERS SECTION (HOME PAGE) ===== */
+
+.organizers{
+padding:70px 10%;
+text-align:center;
+background:#ffffff;
+}
+
+.organizer-container{
+display:flex;
+justify-content:center;
+gap:25px;
+flex-wrap:wrap;
+margin-top:30px;
+}
+
+.organizer-card{
+background:#f5f7fb;
+width:220px;
+padding:20px;
+border-radius:10px;
+box-shadow:0 5px 20px rgba(0,0,0,0.1);
+}
+
+.organizer-card img{
+width:100px;
+height:100px;
+border-radius:50%;
+margin-bottom:10px;
+}
+
