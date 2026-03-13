@@ -202,3 +202,46 @@ color:white;
 cursor:pointer;
 }
 
+/* ===== UPCOMING EVENTS SECTION (HOME PAGE) ===== */
+
+.upcoming{
+padding:70px 10%;
+background:#111;
+color:white;
+text-align:center;
+}
+
+.upcoming-container{
+display:flex;
+justify-content:center;
+gap:25px;
+margin-top:40px;
+flex-wrap:wrap;
+}
+
+.upcoming-card{
+background:white;
+color:#333;
+width:280px;
+border-radius:10px;
+overflow:hidden;
+box-shadow:0 5px 20px rgba(0,0,0,0.2);
+transition:0.3s;
+}
+
+.upcoming-card:hover{
+transform:translateY(-8px);
+}
+
+.upcoming-card img{
+width:100%;
+}
+
+.upcoming-card h3{
+margin:10px;
+}
+
+.upcoming-card p{
+margin:5px 10px;
+}
+
