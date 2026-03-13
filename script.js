@@ -75,3 +75,47 @@ if (bookingForm) {
 }
 
 
+/* =====================================
+   CONTACT FORM SECTION
+   Contact message send confirmation
+===================================== */
+
+const contactForm = document.getElementById("contactForm");
+
+if (contactForm) {
+
+  contactForm.addEventListener("submit", function (e) {
+
+    e.preventDefault();
+
+    document.getElementById("contactSuccess").innerText =
+      "✅ Message sent successfully! We will contact you soon.";
+
+    contactForm.reset();
+
+  });
+
+}
+
+
+/* =====================================
+   REGISTER FORM SECTION
+   User registration success message
+===================================== */
+
+const registerForm = document.getElementById("registerForm");
+
+if (registerForm) {
+
+  registerForm.addEventListener("submit", function (e) {
+
+    e.preventDefault();
+
+    document.getElementById("registerSuccess").innerText =
+      "✅ Registration Successful! You can now login.";
+
+    registerForm.reset();
+
+  });
+
+}
