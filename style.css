@@ -397,3 +397,41 @@ color:green;
 font-weight:bold;
 }
 
+/* ===== ABOUT PAGE ===== */
+
+.about-hero{
+height:50vh;
+background:url("https://images.unsplash.com/photo-1492684223066-81342ee5ff30") center/cover;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+color:white;
+}
+
+.about-hero h1{
+font-size:50px;
+}
+
+/* ===== ABOUT INFO SECTION ===== */
+
+.about-info{
+padding:80px 10%;
+}
+
+.about-container{
+display:flex;
+align-items:center;
+gap:40px;
+flex-wrap:wrap;
+}
+
+.about-text{
+flex:1;
+}
+
+.about-image img{
+width:100%;
+border-radius:10px;
+}
+
