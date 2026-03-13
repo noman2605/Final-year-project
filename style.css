@@ -296,3 +296,44 @@ padding:15px;
 border-top:1px solid #ddd;
 }
 
+/* ===== CTA SECTION (HOME PAGE) ===== */
+
+.cta{
+padding:80px 10%;
+text-align:center;
+background:#0aa;
+color:white;
+}
+
+.cta-btn{
+margin-top:20px;
+padding:12px 25px;
+border:none;
+background:white;
+color:#0aa;
+cursor:pointer;
+}
+
+/* ===== FOOTER (ALL PAGES) ===== */
+
+footer{
+background:#111;
+color:white;
+padding:40px 10%;
+}
+
+.footer-container{
+display:flex;
+justify-content:space-between;
+flex-wrap:wrap;
+}
+
+.footer-col{
+max-width:250px;
+}
+
+.copyright{
+text-align:center;
+margin-top:20px;
+}
+
