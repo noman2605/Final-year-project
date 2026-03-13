@@ -337,3 +337,63 @@ text-align:center;
 margin-top:20px;
 }
 
+/* ===== EVENTS PAGE ===== */
+
+.events-page{
+padding:80px 10%;
+text-align:center;
+}
+
+.pagination{
+margin-top:40px;
+}
+
+.pagination a{
+padding:10px 15px;
+background:#eee;
+margin:5px;
+text-decoration:none;
+}
+
+.pagination .active{
+background:#0aa;
+color:white;
+}
+
+/* ===== BOOKING PAGE ===== */
+
+.booking-section{
+padding:80px 10%;
+text-align:center;
+}
+
+.booking-form{
+max-width:400px;
+margin:auto;
+display:flex;
+flex-direction:column;
+gap:15px;
+margin-top:30px;
+}
+
+.booking-form input,
+.booking-form select{
+padding:10px;
+border:1px solid #ccc;
+border-radius:5px;
+}
+
+.submit-btn{
+padding:12px;
+background:#0aa;
+color:white;
+border:none;
+cursor:pointer;
+}
+
+#successMsg{
+margin-top:10px;
+color:green;
+font-weight:bold;
+}
+
