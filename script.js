@@ -41,3 +41,37 @@ questions.forEach(question => {
 });
 
 
+/* =====================================
+   BOOKING FORM SECTION
+   Ticket booking + payment validation
+===================================== */
+
+const bookingForm = document.getElementById("bookingForm");
+
+if (bookingForm) {
+
+  bookingForm.addEventListener("submit", function (e) {
+
+    // Page reload বন্ধ
+    e.preventDefault();
+
+    // Payment method check
+    let payment = document.querySelector('input[name="payment"]:checked');
+
+    if (!payment) {
+      alert("Please select a payment method");
+      return;
+    }
+
+    // Success message show
+    document.getElementById("successMsg").innerText =
+      "🎉 Payment Successful! Your ticket has been booked.";
+
+    // Form reset
+    bookingForm.reset();
+
+  });
+
+}
+
+
