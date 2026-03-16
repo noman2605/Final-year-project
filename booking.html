@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Book Ticket | EventHub</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+
+<header>
+
+<nav class="navbar">
+
+<h2 class="logo">EventHub</h2>
+
+<ul class="menu">
+
+<li><a href="index.html">Home</a></li>
+<li><a href="events.html">Events</a></li>
+<li><a href="upcoming.html">Upcoming</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="contact.html">Contact</a></li>
+
+</ul>
+
+<button class="nav-btn">Login</button>
+
+</nav>
+
+</header>
+
+
+<!-- BOOKING SECTION -->
+
+<section class="booking-section">
+
+<h1>Book Your Event Ticket</h1>
+
+<form id="bookingForm" class="booking-form">
+
+<input type="text" placeholder="Full Name" required>
+
+<input type="email" placeholder="Email Address" required>
+
+<input type="tel" placeholder="Phone Number" required>
+
+<select required>
+
+<option value="">Select Event</option>
+
+<option>Dhaka Tech Summit</option>
+<option>Startup Meetup</option>
+<option>Music Festival</option>
+<option>AI Conference</option>
+
+</select>
+
+<input type="number" placeholder="Number of Tickets" required>
+
+
+<!-- PAYMENT SECTION -->
+
+<div class="payment-section">
+
+<h3>Select Payment Method</h3>
+
+<div class="payment-methods">
+
+<label class="payment-card">
+
+<input type="radio" name="payment" value="bkash">
+
+<img src="https://i.pinimg.com/736x/9c/f0/6e/9cf06e5b0af09a53ec440ae292af1056.jpg">
+
+<span>bKash</span>
+
+</label>
+
+
+<label class="payment-card">
+
+<input type="radio" name="payment" value="nagad">
+
+<img src="https://nagad.com.bd/_nuxt/img/new-logo.14fe8a5.png">
+
+<span>Nagad</span>
+
+</label>
+
+
+<label class="payment-card">
+
+<input type="radio" name="payment" value="card">
+
+<img src="https://cdn-icons-png.flaticon.com/512/633/633611.png">
+
+<span>Debit / Credit Card</span>
+
+</label>
+
+</div>
+
+</div>
+
+
+<button type="submit" class="submit-btn">Confirm & Pay</button>
+
+<p id="successMsg"></p>
+
+</form>
+
+</section>
+
+
+<!-- FOOTER -->
+
+<footer>
+
+<div class="footer-container">
+
+<div class="footer-col">
+
+<h3>EventHub</h3>
+
+<p>Discover and book the best events across Bangladesh.</p>
+
+</div>
+
+<div class="footer-col">
+
+<h3>Quick Links</h3>
+
+<p>Home</p>
+<p>Events</p>
+<p>Upcoming</p>
+
+</div>
+
+<div class="footer-col">
+
+<h3>Contact</h3>
+
+<p>Dhaka, Bangladesh</p>
+<p>Email: info@eventhub.com</p>
+<p>Phone: +880123456789</p>
+
+</div>
+
+</div>
+
+<p class="copyright">© 2026 EventHub Bangladesh</p>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
