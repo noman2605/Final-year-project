@@ -14,7 +14,7 @@ style="padding:10px;width:300px;border:1px solid #ccc;border-radius:5px;">
 <div class="event-container">
 @forelse($events as $event)
 <div class="card">
-<img src="{{ $event->image ?: 'https://picsum.photos/400/250?'.$event->id }}">
+<img src="{{ $event->image_url }}" alt="{{ $event->title }}">
 <h3>{{ $event->title }}</h3>
 <p>📍 {{ $event->location }}</p>
 <p>📅 {{ $event->date->format('d M Y') }}</p>

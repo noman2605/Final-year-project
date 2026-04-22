@@ -4,7 +4,7 @@
 @section('content')
 <section class="container">
 <div class="event-detail">
-<img src="{{ $event->image ?: 'https://picsum.photos/1200/400?'.$event->id }}">
+<img src="{{ $event->image_url }}" alt="{{ $event->title }}">
 <div class="body">
 <h1>{{ $event->title }}</h1>
 <div class="meta">

@@ -57,7 +57,7 @@ class DatabaseSeeder extends Seeder
                 'description' => "The biggest tech conference in Bangladesh featuring talks on AI, web3, robotics, and developer tooling. Network with industry leaders, attend hands-on workshops, and discover the latest in software innovation.",
                 'date'        => now()->addDays(20)->setTime(10, 0),
                 'location'    => 'Dhaka Convention Center',
-                'image'       => 'https://picsum.photos/1200/400?tech',
+                'image'       => 'images/events/tech.jpg',
                 'status'      => Event::STATUS_PUBLISHED,
                 'categories'  => [
                     ['name' => 'Regular', 'price' => 1200, 'capacity' => 200],
@@ -71,7 +71,7 @@ class DatabaseSeeder extends Seeder
                 'description' => "An evening of pitches, panel discussions, and networking with founders and investors from across the northern region of Bangladesh.",
                 'date'        => now()->addDays(35)->setTime(17, 30),
                 'location'    => 'Rajshahi IT Park',
-                'image'       => 'https://picsum.photos/1200/400?startup',
+                'image'       => 'images/events/startup.jpg',
                 'status'      => Event::STATUS_PUBLISHED,
                 'categories'  => [
                     ['name' => 'Standard', 'price' => 800,  'capacity' => 100],
@@ -84,7 +84,7 @@ class DatabaseSeeder extends Seeder
                 'description' => "A spectacular cultural night with the country's most celebrated artists performing under the stars. Food, art, and live music all evening.",
                 'date'        => now()->addDays(50)->setTime(18, 0),
                 'location'    => 'Army Stadium, Dhaka',
-                'image'       => 'https://picsum.photos/1200/400?music',
+                'image'       => 'images/events/music.jpg',
                 'status'      => Event::STATUS_PUBLISHED,
                 'categories'  => [
                     ['name' => 'General Admission', 'price' => 1500, 'capacity' => 500],
@@ -97,7 +97,7 @@ class DatabaseSeeder extends Seeder
                 'description' => "Workshops, keynotes, and labs on practical AI/ML for engineers, researchers, and product folks.",
                 'date'        => now()->addDays(60)->setTime(9, 0),
                 'location'    => 'Dhaka International Convention Center',
-                'image'       => 'https://picsum.photos/1200/400?ai',
+                'image'       => 'images/events/ai.jpg',
                 'status'      => Event::STATUS_PUBLISHED,
                 'categories'  => [
                     ['name' => 'Conference Pass', 'price' => 2500, 'capacity' => 150],
@@ -110,7 +110,7 @@ class DatabaseSeeder extends Seeder
                 'description' => "Hands-on workshop covering empathy mapping, prototyping, and user testing. Bring a laptop.",
                 'date'        => now()->addDays(75)->setTime(10, 0),
                 'location'    => 'Rajshahi Innovation Lab',
-                'image'       => 'https://picsum.photos/1200/400?design',
+                'image'       => 'images/events/design.jpg',
                 'status'      => Event::STATUS_DRAFT,
                 'categories'  => [
                     ['name' => 'Seat', 'price' => 600, 'capacity' => 40],

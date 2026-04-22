@@ -15,17 +15,17 @@
 <h2>Our Successful Events</h2>
 <div class="success-container">
 <div class="success-card">
-<img src="https://futurestartup.com/wp-content/uploads/2020/01/Dhaka-Tech-Summit.jpg">
+<img src="{{ asset('images/home/tech-summit.jpg') }}" alt="Dhaka Tech Summit 2025">
 <h3>Dhaka Tech Summit 2025</h3>
 <p>Over 1500 participants joined the biggest tech event in Dhaka.</p>
 </div>
 <div class="success-card">
-<img src="https://picsum.photos/400/250?startup">
+<img src="{{ asset('images/home/startup-meetup.jpg') }}" alt="Daffodil Startup Meetup">
 <h3>Daffodil Startup Meetup</h3>
 <p>Entrepreneurs and investors gathered to discuss new ideas.</p>
 </div>
 <div class="success-card">
-<img src="https://picsum.photos/400/250?music">
+<img src="{{ asset('images/home/music-festival.jpg') }}" alt="Bangladesh Music Festival">
 <h3>Bangladesh Music Festival</h3>
 <p>A cultural night with famous Bangladeshi artists.</p>
 </div>
@@ -36,17 +36,17 @@
 <h2>Our Hardworking Organizers</h2>
 <div class="organizer-container">
 <div class="organizer-card">
-<img src="https://randomuser.me/api/portraits/men/21.jpg">
+<img src="{{ asset('images/team/rahim.jpg') }}" alt="Rahim Ahmed">
 <h3>Rahim Ahmed</h3>
 <p>Lead Event Organizer</p>
 </div>
 <div class="organizer-card">
-<img src="https://randomuser.me/api/portraits/women/44.jpg">
+<img src="{{ asset('images/team/nusrat.jpg') }}" alt="Nusrat Jahan">
 <h3>Nusrat Jahan</h3>
 <p>Event Manager</p>
 </div>
 <div class="organizer-card">
-<img src="https://randomuser.me/api/portraits/men/55.jpg">
+<img src="{{ asset('images/team/tanvir.jpg') }}" alt="Tanvir Hasan">
 <h3>Tanvir Hasan</h3>
 <p>Technical Coordinator</p>
 </div>
@@ -58,7 +58,7 @@
 <div class="event-container">
 @forelse($popular as $event)
 <div class="card">
-<img src="{{ $event->image ?: 'https://picsum.photos/400/250?'.$event->id }}">
+<img src="{{ $event->image_url }}" alt="{{ $event->title }}">
 <h3>{{ $event->title }}</h3>
 <p>📍 {{ $event->location }}</p>
 <p>📅 {{ $event->date->format('d M Y') }}</p>
@@ -78,7 +78,7 @@
 <div class="upcoming-container">
 @forelse($upcoming as $event)
 <div class="upcoming-card">
-<img src="{{ $event->image ?: 'https://picsum.photos/400/250?u'.$event->id }}">
+<img src="{{ $event->image_url }}" alt="{{ $event->title }}">
 <h3>{{ $event->title }}</h3>
 <p>📍 {{ $event->location }}</p>
 <p>📅 {{ $event->date->format('d M Y') }}</p>

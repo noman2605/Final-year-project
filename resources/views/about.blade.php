@@ -16,7 +16,7 @@
 <p>GateKeeper is an event management and ticket booking platform designed for people across Bangladesh. Our platform helps users discover and book tickets for concerts, conferences, workshops, cultural events and business meetups. We aim to support event organizers and make ticket booking simple and accessible for everyone in cities like Dhaka, Rajshahi, Chattogram, Khulna and Sylhet.</p>
 </div>
 <div class="about-image">
-<img src="https://images.unsplash.com/photo-1505373877841-8d25f7d46678">
+<img src="{{ asset('images/about/hero.jpg') }}" alt="GateKeeper events">
 </div>
 </div>
 </section>
@@ -32,9 +32,9 @@
 <section class="team">
 <h2>Our Hardworking Organizers</h2>
 <div class="team-container">
-<div class="team-card"><img src="https://randomuser.me/api/portraits/men/21.jpg"><h3>Rahim Ahmed</h3><p>Lead Event Organizer</p></div>
-<div class="team-card"><img src="https://randomuser.me/api/portraits/women/44.jpg"><h3>Nusrat Jahan</h3><p>Event Manager</p></div>
-<div class="team-card"><img src="https://randomuser.me/api/portraits/men/55.jpg"><h3>Tanvir Hasan</h3><p>Technical Coordinator</p></div>
+<div class="team-card"><img src="{{ asset('images/team/rahim.jpg') }}" alt="Rahim Ahmed"><h3>Rahim Ahmed</h3><p>Lead Event Organizer</p></div>
+<div class="team-card"><img src="{{ asset('images/team/nusrat.jpg') }}" alt="Nusrat Jahan"><h3>Nusrat Jahan</h3><p>Event Manager</p></div>
+<div class="team-card"><img src="{{ asset('images/team/tanvir.jpg') }}" alt="Tanvir Hasan"><h3>Tanvir Hasan</h3><p>Technical Coordinator</p></div>
 </div>
 </section>
 @endsection
