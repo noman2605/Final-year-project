@@ -14,8 +14,8 @@
 <input type="password" name="password" placeholder="Password" required>
 @error('password')<div class="auth-error">{{ $message }}</div>@enderror
 
-<label style="display:block;text-align:left;margin:10px 0;font-size:13px;">
-<input type="checkbox" name="remember"> Remember me
+<label style="display:flex;align-items:center;gap:6px;margin:10px 0;font-size:13px;">
+<input type="checkbox" name="remember" style="width:auto;margin:0;"> Remember me
 </label>
 
 <button type="submit" class="login-btn">Login</button>
